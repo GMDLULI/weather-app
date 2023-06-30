@@ -1,0 +1,71 @@
+h1 {
+  text-align: left;
+  line-height: 48px;
+}
+.bar {
+  opacity: 70%;
+  border: 12px soild white;
+  border-radius: 10%;
+}
+.search {
+  color: aliceblue;
+  background-color: violet;
+  border: 10px solid violet;
+  border-radius: 25%;
+}
+.container {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  border: 30px soild black;
+  max-width: 50%;
+  border-radius: 30%;
+  padding: 20px;
+}
+.cityTemp {
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  text-align: right;
+  line-height: 48px;
+  font-weight: 500;
+  font-size: 30px;
+  padding: 0;
+}
+
+.cityInfo {
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  text-align: left;
+}
+
+.monday {
+  background-color: aliceblue;
+  border: 20px solid aliceblue;
+  border-radius: 30%;
+}
+
+.tuesday {
+  background-color: aliceblue;
+  border: 20px solid aliceblue;
+  border-radius: 30%;
+}
+
+.wednesday {
+  background-color: aliceblue;
+  border: 20px solid aliceblue;
+  border-radius: 30%;
+}
+
+.thursday {
+  background-color: aliceblue;
+  border: 20px solid aliceblue;
+  border-radius: 30%;
+}
+
+.friday {
+  background-color: aliceblue;
+  border: 20px solid aliceblue;
+  border-radius: 30%;
+}
