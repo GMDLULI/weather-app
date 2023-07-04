@@ -1,5 +1,6 @@
 body {
   background-image: url("images/weather-image.jpg");
+  padding: 50px;
 }
 h6 {
   text-align: center;
@@ -83,4 +84,8 @@ h1 {
   border: 20px solid aliceblue;
   border-radius: 30%;
   opacity: 70%;
+}
+
+#description {
+  text-transform: capitalize;
 }

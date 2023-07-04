@@ -12,6 +12,8 @@
       integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
       crossorigin="anonymous"
     />
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+    <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
   </head>
   <body>
     <div class="container">
@@ -22,15 +24,18 @@
       <hr />
       <div class="row">
         <div class="col">
-          <h1>New York</h1>
+          <h1 id="city"></h1>
           <p class="cityInfo">
-            Monday 13:55 clear skies <br />
-            humidity 30% wind 15km/h
+            <span id="date"> </span><span id="description"></span>
+            <br />
+            humnidity: <span id="humidity"></span>% wind:
+            <span id="wind"></span>km/h
           </p>
         </div>
         <div class="col">
           <h2 class="cityTemp">
-            <img src="images/sun (1).png" width="100" /> 25°C
+            <img src="images/sun (1).png" width="100" />
+            <span id="temp">25</span>°C
           </h2>
         </div>
       </div>
@@ -82,7 +87,7 @@
           <div class="thursday">
             <p>
               Thurs <br />
-              <img src="images/rain.png" width="40<br" />
+              <img src="images/rain.png" width="40" /> <br />
               <strong>18°C</strong> <br />
               <small>10°C</small>
             </p>
@@ -92,7 +97,7 @@
           <div class="friday">
             <p>
               Fri <br />
-              <img src="images/cloudy (1).png" width="40<br" />
+              <img src="images/cloudy (1).png" width="40" /><br" />
               <strong>15°C</strong> <br />
               <small>10°C</small>
             </p>
@@ -106,5 +111,6 @@
       </a>
       by Gugulethu Mdluli
     </h6>
+    <script src="weather.js"></script>
   </body>
 </html>
